@@ -13,7 +13,7 @@ client = anthropic.Anthropic(api_key=api_key)
 app = Flask(__name__)
 CORS(app)  # ✅ Allow all origins
 
-client = anthropic.Anthropic(api_key="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")
+client = anthropic.Anthropic(api_key="API KEY")
 
 @app.route('/chat', methods=['POST'])
 def chat():

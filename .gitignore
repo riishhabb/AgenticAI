@@ -1,0 +1,18 @@
+# 🔒 API key / secrets
+.env
+
+# ⚙️ Python junk
+__pycache__/
+*.pyc
+
+# 🛠 IDE & editor junk
+.vscode/
+.idea/
+
+# 🐍 Virtual environment
+venv/
+env/
+
+# 💻 OS stuff
+.DS_Store
+Thumbs.db
